@@ -19,6 +19,8 @@
 ## Project Social Media : 
 - Twitter : https://x.com/multisynq
 
+## MultiSynq Sing Up : https://startsynqing.com/?ref=56da30-kzs03j
+
 
 ## Server Update : 
 
