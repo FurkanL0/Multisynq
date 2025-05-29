@@ -20,18 +20,18 @@
 - Twitter : https://x.com/multisynq
 
 
-## 1. Server Update : 
+## Server Update : 
 
 ```bash
 sudo apt update -y && sudo apt upgrade -y
 ```
-## 2. Download Packages :
+## Download Packages :
 
 ```bash
 sudo apt install htop ca-certificates zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev tmux iptables curl nvme-cli git wget make jq libleveldb-dev build-essential pkg-config ncdu tar clang bsdmainutils lsb-release libssl-dev libreadline-dev libffi-dev jq gcc screen file unzip lz4 -y
 ```
 
-## 3. Docker ; 
+## Docker ; 
 
 ```bash
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -41,7 +41,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 docker version
 ```
 
-## 4. Docker Compose : 
+## Docker Compose : 
 
 ```bash
 VER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep tag_name | cut -d '"' -f 4)
@@ -50,13 +50,22 @@ chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
-## 5. Docker User
+## Docker User
 
 ```bash
 sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
 
+## Node JS : 
+```bash
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt install -y nodejs
+```
+## Synqchronize : 
+
+```bash
+npm install -g synqchronizer
+```
 ## Check Package JSON
   ```
   cd $(npm root -g)/synqchronizer
