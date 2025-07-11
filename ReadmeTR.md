@@ -92,6 +92,9 @@ npm install -g synqchronizer
   ```
   synchronize service
   ```
+
+<img width="511" height="246" alt="image" src="https://github.com/user-attachments/assets/ba4fe2c1-3a18-4a97-a7d2-c92096ca7fe7" />
+
   ## Copy Command Script in VP
   ```
   sudo cp /root/.synchronizer-cli/synchronizer-cli.service /etc/systemd/system/
