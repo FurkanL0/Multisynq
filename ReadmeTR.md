@@ -127,6 +127,13 @@ npm install -g synqchronizer
   ```
   http://<YOUR_VPS_IP>:3000
   ```
+
+<img width="1452" height="871" alt="image" src="https://github.com/user-attachments/assets/d7530793-e91c-4639-a0ff-5c303772dc1f" />
+
+- Siteye girdiğinizde kullanıcı adı ve şifre isteyecek.
+- İsim'iniz sizin kullanıcı adınız.
+- Şifre ayarlamıştık oda şifreniz.
+
 ## Monitoring Status Synqchronizer
   ```
   sudo systemctl daemon-reload
