@@ -80,7 +80,8 @@ npm install -g synqchronizer
   ```
   synchronize init
   ```
-<img width="463" height="159" alt="image" src="https://github.com/user-attachments/assets/523bdd4e-d4d5-47a2-9356-107a427dd706" />
+<img width="458" height="157" alt="image" src="https://github.com/user-attachments/assets/111b86ff-5789-4f79-aedc-5fdc77db266e" />
+
 
 - İsim verin.
 - Dashboard'dan Synq Key'inizi yazın.
