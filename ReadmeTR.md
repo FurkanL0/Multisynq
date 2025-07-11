@@ -68,7 +68,7 @@ curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt in
 ```bash
 npm install -g synqchronizer
 ```
-## Check Package JSON
+## Json
   ```
   cd $(npm root -g)/synqchronizer
   cat package.json | jq .bin
@@ -76,10 +76,14 @@ npm install -g synqchronizer
   ```
   cat /usr/lib/node_modules/synqchronizer/package.json | jq .bin
   ```
-## Configure Synchronize
+## Synchronize Ayarlama
   ```
   synchronize init
   ```
+
+<img width="694" height="115" alt="image" src="https://github.com/user-attachments/assets/ad07e25c-3de0-4e3b-aa6d-772b9bba134a" />
+
+
 ## Running your Synchronize systemd Service
   ```
   synchronize service
