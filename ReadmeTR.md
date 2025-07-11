@@ -109,7 +109,7 @@ npm install -g synqchronizer
   ```
   sudo systemctl status synchronizer-cli
   ```
-## Access your Nodes in Website Synqchronizer Dashboard
+## WebSite Dashboard için Paneli Açalım
 
   ## Port Ufw
   ```
