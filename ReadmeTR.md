@@ -80,9 +80,13 @@ npm install -g synqchronizer
   ```
   synchronize init
   ```
+<img width="463" height="159" alt="image" src="https://github.com/user-attachments/assets/523bdd4e-d4d5-47a2-9356-107a427dd706" />
 
-<img width="694" height="115" alt="image" src="https://github.com/user-attachments/assets/ad07e25c-3de0-4e3b-aa6d-772b9bba134a" />
-
+- İsim verin.
+- Dashboard'dan Synq Key'inizi yazın.
+- Cüzdan adresinizi yazın.
+- Y yazıp onay verin.
+- Web paneli için güzel milletin erişemeyeceği bir şifre yazın - şifreyide unutmayın.
 
 ## Running your Synchronize systemd Service
   ```
