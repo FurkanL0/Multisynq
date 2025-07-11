@@ -88,14 +88,14 @@ npm install -g synqchronizer
 - Y yazıp onay verin.
 - Web paneli için güzel milletin erişemeyeceği bir şifre yazın - şifreyide unutmayın.
 
-## Running your Synchronize systemd Service
+## Bilgileri Senkronize Edelim
   ```
   synchronize service
   ```
 
 <img width="511" height="246" alt="image" src="https://github.com/user-attachments/assets/ba4fe2c1-3a18-4a97-a7d2-c92096ca7fe7" />
 
-  ## Copy Command Script in VP
+  ## Servisi Aktaralım
   ```
   sudo cp /root/.synchronizer-cli/synchronizer-cli.service /etc/systemd/system/
   ```
@@ -104,16 +104,9 @@ npm install -g synqchronizer
   sudo systemctl enable synchronizer-cli
   sudo systemctl start synchronizer-cli
   ```
-## Status
+## Durum ; 
   ```
   sudo systemctl status synchronizer-cli
-  ```
-## Or Rename file (Optional) ##
-  ```
-  sudo mv /etc/systemd/system/synchronizer-cli.service /etc/systemd/system/synqchronizer-cli.service
-  sudo systemctl daemon-reload
-  sudo systemctl enable synqchronizer-cli
-  sudo systemctl start synqchronizer-cli
   ```
 ## Access your Nodes in Website Synqchronizer Dashboard
 
