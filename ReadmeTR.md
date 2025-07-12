@@ -5,7 +5,7 @@
 | X        | Minimum              |
 |------------------|----------------------------|
 | **CPU**          | 4++ |
-| **RAM**          | 8++ GB                    |
+| **RAM**          | 5++ GB                    |
 | **Disk**      | 50 GB+ NVME GB SDD                   |
 | **Internet Speed**      | 100 Mbps (1 Gbps+ recommended) |
 
