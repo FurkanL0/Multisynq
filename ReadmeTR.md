@@ -137,7 +137,7 @@ npm install -g synqchronizer
 
 
 
-- Bunları Girmeyin - Restart Yada Yenileme İçin ; 
+#### Bunları Girmeyin - Restart Yada Yenileme İçin ; 
 
 ## Monitoring Status Synqchronizer
   ```
