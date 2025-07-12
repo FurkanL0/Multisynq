@@ -122,7 +122,7 @@ npm install -g synqchronizer
   ```
   synchronize web
   ```
-  Detached from screen `CTRL+A+D`
+  - Screenden `CTRL+A+D` ile çıkabilirsiniz - Arkada devam edicek.
   
   ## Access your Server
   ```
