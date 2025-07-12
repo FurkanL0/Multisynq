@@ -13,7 +13,6 @@
 | Server         | Link              | Features |
 |------------------|----------------------------|----------------------------|
 | **Contabo**          | [Link](https://www.dpbolvw.net/click-101330552-12454592)                     | Cheap / Paypal  |
-| **PQ**      | [Link](https://pq.hosting/?from=627713)                  | Cheap / Crypto Payment |
 | **NetCup**          | [Link](https://www.netcup.com/en/?ref=261820) | Cheap / Paypal |
 
 ## Proje Sosyal Medyası : 
