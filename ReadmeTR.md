@@ -135,6 +135,10 @@ npm install -g synqchronizer
 - İsim'iniz sizin kullanıcı adınız.
 - Şifre ayarlamıştık oda şifreniz.
 
+
+
+- Bunları Girmeyin - Restart Yada Yenileme İçin ; 
+
 ## Monitoring Status Synqchronizer
   ```
   sudo systemctl daemon-reload
