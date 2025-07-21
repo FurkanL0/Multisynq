@@ -30,7 +30,7 @@ Type=simple
 User=root
 Restart=always
 RestartSec=10
-ExecStart=/usr/bin/docker run --rm --name synchronizer-cli --platform linux/amd64 cdrakep/synqchronizer:latest --depin wss://api.multisynq.io/depin --sync-name burayakedadiniz --key burayasynckey --wallet "monadcüzdanadresi"
+ExecStart=/usr/bin/docker run --rm --name synchronizer-cli --platform linux/amd64 cdrakep/synqchronizer:latest --depin wss://api.multisynq.io/depin --sync-name burayakedadiniz --key burayasynckey --wallet monadcüzdanadresi
 Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 [Install]
@@ -40,11 +40,14 @@ WantedBy=multi-user.target
 
 
 ```bash
-sudo apt update -y && sudo apt upgrade -y
+sudo cp /root/.synchronizer-cli/synchronizer-cli.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl restart synchronizer-cli
+sudo systemctl status synchronizer-cli
 ```
 
 
 ```bash
-sudo apt update -y && sudo apt upgrade -y
+sudo journalctl -u synchronizer-cli -f
 ```
 
