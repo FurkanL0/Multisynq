@@ -38,7 +38,7 @@ WantedBy=multi-user.target
 
 ```
 
-- ; 
+- Burada klavyenizin yön tuşları ile ilerleyebilirsiniz - silmeden sonra eskisi gibi yanlarda 1 boşluk olmasını unutmayın; 
 
 <img width="1595" height="332" alt="image" src="https://github.com/user-attachments/assets/9d0dfa70-483f-42f6-abfe-7dee562e7ad0" />
 
