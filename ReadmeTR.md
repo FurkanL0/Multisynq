@@ -65,7 +65,7 @@ curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt in
 ## Synqchronize : 
 
 ```bash
-npm install -g synqchronizer
+npm install -g synchronizer-cli
 ```
 ## Json
   ```
